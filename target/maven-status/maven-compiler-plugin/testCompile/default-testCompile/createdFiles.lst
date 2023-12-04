@@ -1,0 +1,4 @@
+com\whale\web\documents\DocumentsTest.class
+com\whale\web\home\HomeControllerTest.class
+com\whale\web\security\SecurityControllerTest.class
+com\whale\web\design\DesignTest.class

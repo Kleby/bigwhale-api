@@ -103,7 +103,6 @@
                     <finalName>${project.build.finalName}</finalName>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 

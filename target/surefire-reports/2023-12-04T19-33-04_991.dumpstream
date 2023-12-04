@@ -1,4 +1,4 @@
-# Created at 2023-12-04T19:17:00.837
+# Created at 2023-12-04T19:33:05.238
 Boot Manifest-JAR contains absolute paths in classpath 'D:\TI\workspace\teste\bigwhale-api\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.whale.web.documents.DocumentsTest" time="2.046" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.whale.web.documents.DocumentsTest" time="2.211" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.8.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\kleby\AppData\Local\Temp\surefire12031477481290655151\surefirebooter-20231204191700804_3.jar C:\Users\kleby\AppData\Local\Temp\surefire12031477481290655151 2023-12-04T19-17-00_607-jvmRun1 surefire-20231204191700804_1tmp surefire_0-20231204191700804_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\kleby\AppData\Local\Temp\surefire2976138416416650458\surefirebooter-20231204193305203_3.jar C:\Users\kleby\AppData\Local\Temp\surefire2976138416416650458 2023-12-04T19-33-04_991-jvmRun1 surefire-20231204193305203_1tmp surefire_0-20231204193305203_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\TI\workspace\teste\bigwhale-api\target\test-classes;D:\TI\workspace\teste\bigwhale-api\target\classes;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.1.5\spring-boot-starter-web-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter\3.1.5\spring-boot-starter-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.1.5\spring-boot-starter-logging-3.1.5.jar;C:\Users\kleby\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\kleby\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\kleby\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.20.0\log4j-to-slf4j-2.20.0.jar;C:\Users\kleby\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\kleby\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\kleby\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.1.5\spring-boot-starter-json-3.1.5.jar;C:\Users\kleby\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\kleby\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\kleby\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\kleby\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\kleby\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\kleby\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.1.5\spring-boot-starter-tomcat-3.1.5.jar;C:\Users\kleby\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.15\tomcat-embed-core-10.1.15.jar;C:\Users\kleby\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.15\tomcat-embed-websocket-10.1.15.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-web\6.0.13\spring-web-6.0.13.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-beans\6.0.13\spring-beans-6.0.13.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-webmvc\6.0.13\spring-webmvc-6.0.13.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-aop\6.0.13\spring-aop-6.0.13.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-context\6.0.13\spring-context-6.0.13.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-expression\6.0.13\spring-expression-6.0.13.jar;C:\Users\kleby\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-devtools\3.1.5\spring-boot-devtools-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot\3.1.5\spring-boot-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.1.5\spring-boot-autoconfigure-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.1.5\spring-boot-starter-test-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-test\3.1.5\spring-boot-test-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.1.5\spring-boot-test-autoconfigure-3.1.5.jar;C:\Users\kleby\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\kleby\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\kleby\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\kleby\.m2\repository\net\minidev\json-smart\2.4.11\json-smart-2.4.11.jar;C:\Users\kleby\.m2\repository\net\minidev\accessors-smart\2.4.11\accessors-smart-2.4.11.jar;C:\Users\kleby\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\kleby\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\kleby\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\kleby\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\kleby\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\kleby\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\kleby\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\kleby\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\kleby\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\kleby\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\kleby\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\kleby\.m2\repository\org\mockito\mockito-junit-jupiter\5.3.1\mockito-junit-jupiter-5.3.1.jar;C:\Users\kleby\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\kleby\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-test\6.0.13\spring-test-6.0.13.jar;C:\Users\kleby\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\3.1.5\spring-boot-starter-actuator-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-actuator-autoconfigure\3.1.5\spring-boot-actuator-autoconfigure-3.1.5.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-actuator\3.1.5\spring-boot-actuator-3.1.5.jar;C:\Users\kleby\.m2\repository\io\micrometer\micrometer-observation\1.11.5\micrometer-observation-1.11.5.jar;C:\Users\kleby\.m2\repository\io\micrometer\micrometer-commons\1.11.5\micrometer-commons-1.11.5.jar;C:\Users\kleby\.m2\repository\io\micrometer\micrometer-core\1.11.5\micrometer-core-1.11.5.jar;C:\Users\kleby\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\kleby\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\kleby\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.1.5\spring-boot-starter-validation-3.1.5.jar;C:\Users\kleby\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.15\tomcat-embed-el-10.1.15.jar;C:\Users\kleby\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\kleby\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\kleby\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\kleby\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-core\6.0.13\spring-core-6.0.13.jar;C:\Users\kleby\.m2\repository\org\springframework\spring-jcl\6.0.13\spring-jcl-6.0.13.jar;C:\Users\kleby\.m2\repository\com\google\zxing\core\3.5.2\core-3.5.2.jar;C:\Users\kleby\.m2\repository\net\sourceforge\tess4j\tess4j\5.8.0\tess4j-5.8.0.jar;C:\Users\kleby\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\kleby\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.4.0\jai-imageio-core-1.4.0.jar;C:\Users\kleby\.m2\repository\org\apache\pdfbox\pdfbox\2.0.29\pdfbox-2.0.29.jar;C:\Users\kleby\.m2\repository\org\apache\pdfbox\fontbox\2.0.29\fontbox-2.0.29.jar;C:\Users\kleby\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kleby\.m2\repository\org\apache\pdfbox\pdfbox-tools\2.0.29\pdfbox-tools-2.0.29.jar;C:\Users\kleby\.m2\repository\org\apache\pdfbox\pdfbox-debugger\2.0.29\pdfbox-debugger-2.0.29.jar;C:\Users\kleby\.m2\repository\org\apache\pdfbox\jbig2-imageio\3.0.4\jbig2-imageio-3.0.4.jar;C:\Users\kleby\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\kleby\.m2\repository\net\sourceforge\lept4j\lept4j\1.18.1\lept4j-1.18.1.jar;C:\Users\kleby\.m2\repository\org\jboss\jboss-vfs\3.2.17.Final\jboss-vfs-3.2.17.Final.jar;C:\Users\kleby\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\kleby\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\kleby\.m2\repository\com\opencsv\opencsv\5.8\opencsv-5.8.jar;C:\Users\kleby\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\kleby\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\kleby\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\kleby\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\kleby\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\kleby\.m2\repository\org\tukaani\xz\1.9\xz-1.9.jar;C:\Users\kleby\.m2\repository\org\junit\vintage\junit-vintage-engine\5.9.2\junit-vintage-engine-5.9.2.jar;C:\Users\kleby\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\kleby\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kleby\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\kleby\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\kleby\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\kleby\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kleby\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.2.0\springdoc-openapi-starter-webmvc-ui-2.2.0.jar;C:\Users\kleby\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.2.0\springdoc-openapi-starter-webmvc-api-2.2.0.jar;C:\Users\kleby\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.2.0\springdoc-openapi-starter-common-2.2.0.jar;C:\Users\kleby\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.15\swagger-core-jakarta-2.2.15.jar;C:\Users\kleby\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.15\swagger-annotations-jakarta-2.2.15.jar;C:\Users\kleby\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.15\swagger-models-jakarta-2.2.15.jar;C:\Users\kleby\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.15.3\jackson-dataformat-yaml-2.15.3.jar;C:\Users\kleby\.m2\repository\org\webjars\swagger-ui\5.2.0\swagger-ui-5.2.0.jar;C:\Users\kleby\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="windows-1252"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\kleby\AppData\Local\Temp\surefire12031477481290655151\surefirebooter-20231204191700804_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kleby\AppData\Local\Temp\surefire2976138416416650458\surefirebooter-20231204193305203_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+7"/>
@@ -52,7 +52,7 @@
     <property name="user.dir" value="D:\TI\workspace\teste\bigwhale-api"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="27608"/>
+    <property name="PID" value="23988"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -63,10 +63,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testQRCodeGeneratorWhatsapp" classname="com.whale.web.documents.DocumentsTest" time="0.278">
-    <system-out><![CDATA[2023-12-04T19:17:06.857-03:00  INFO 27608 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.whale.web.documents.DocumentsTest]: DocumentsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-12-04T19:17:06.882-03:00  INFO 27608 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.whale.web.WhaleApiApplication for test class com.whale.web.documents.DocumentsTest
-2023-12-04T19:17:06.890-03:00  INFO 27608 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+  <testcase name="testQRCodeGeneratorWhatsapp" classname="com.whale.web.documents.DocumentsTest" time="0.307">
+    <system-out><![CDATA[2023-12-04T19:33:12.019-03:00  INFO 23988 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.whale.web.documents.DocumentsTest]: DocumentsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-04T19:33:12.043-03:00  INFO 23988 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.whale.web.WhaleApiApplication for test class com.whale.web.documents.DocumentsTest
+2023-12-04T19:33:12.050-03:00  INFO 23988 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -76,57 +76,57 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.5)
 
-2023-12-04T19:17:06.915-03:00  INFO 27608 --- [           main] com.whale.web.documents.DocumentsTest    : Starting DocumentsTest using Java 17.0.8 with PID 27608 (started by kleby in D:\TI\workspace\teste\bigwhale-api)
-2023-12-04T19:17:06.915-03:00  INFO 27608 --- [           main] com.whale.web.documents.DocumentsTest    : The following 1 profile is active: "prod"
-2023-12-04T19:17:08.166-03:00  INFO 27608 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-12-04T19:17:08.167-03:00  INFO 27608 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-12-04T19:17:08.173-03:00  INFO 27608 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2023-12-04T19:17:08.178-03:00  INFO 27608 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 11 ms
-2023-12-04T19:17:08.204-03:00  INFO 27608 --- [           main] com.whale.web.documents.DocumentsTest    : Started DocumentsTest in 1.314 seconds (process running for 7.281)
-2023-12-04T19:17:08.483-03:00  INFO 27608 --- [           main] c.w.web.documents.DocumentsController    : QRCOde Whatsapp generated successfully
+2023-12-04T19:33:12.079-03:00  INFO 23988 --- [           main] com.whale.web.documents.DocumentsTest    : Starting DocumentsTest using Java 17.0.8 with PID 23988 (started by kleby in D:\TI\workspace\teste\bigwhale-api)
+2023-12-04T19:33:12.079-03:00  INFO 23988 --- [           main] com.whale.web.documents.DocumentsTest    : The following 1 profile is active: "prod"
+2023-12-04T19:33:13.444-03:00  INFO 23988 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-12-04T19:33:13.445-03:00  INFO 23988 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-12-04T19:33:13.452-03:00  INFO 23988 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-04T19:33:13.457-03:00  INFO 23988 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2023-12-04T19:33:13.488-03:00  INFO 23988 --- [           main] com.whale.web.documents.DocumentsTest    : Started DocumentsTest in 1.439 seconds (process running for 8.16)
+2023-12-04T19:33:13.797-03:00  INFO 23988 --- [           main] c.w.web.documents.DocumentsController    : QRCOde Whatsapp generated successfully
 ]]></system-out>
   </testcase>
-  <testcase name="shouldReturnARedirectionStatusCode500" classname="com.whale.web.documents.DocumentsTest" time="0.06">
-    <system-out><![CDATA[2023-12-04T19:17:08.553-03:00 ERROR 27608 --- [           main] c.w.web.documents.DocumentsController    : Field: certificateTypeEnum is null
+  <testcase name="shouldReturnARedirectionStatusCode500" classname="com.whale.web.documents.DocumentsTest" time="0.052">
+    <system-out><![CDATA[2023-12-04T19:33:13.856-03:00 ERROR 23988 --- [           main] c.w.web.documents.DocumentsController    : Field: certificateTypeEnum is null
 ]]></system-out>
   </testcase>
   <testcase name="testInvalidURLQRCodeGeneratorWhatsapp" classname="com.whale.web.documents.DocumentsTest" time="0.024"/>
-  <testcase name="testUnableToConvertImageToOutputFormatException" classname="com.whale.web.documents.DocumentsTest" time="0.013">
-    <system-out><![CDATA[2023-12-04T19:17:08.597-03:00 ERROR 27608 --- [           main] c.w.web.documents.DocumentsController    : Unsupported file format. Please choose a  bmp, jpg, jpeg, or gif file.
+  <testcase name="testUnableToConvertImageToOutputFormatException" classname="com.whale.web.documents.DocumentsTest" time="0.024">
+    <system-out><![CDATA[2023-12-04T19:33:13.912-03:00 ERROR 23988 --- [           main] c.w.web.documents.DocumentsController    : Unsupported file format. Please choose a  bmp, jpg, jpeg, or gif file.
 ]]></system-out>
   </testcase>
-  <testcase name="testCompactConverterForTwoArchives" classname="com.whale.web.documents.DocumentsTest" time="0.039">
-    <system-out><![CDATA[2023-12-04T19:17:08.638-03:00  INFO 27608 --- [           main] c.w.web.documents.DocumentsController    : Compressed file conversion successful
+  <testcase name="testCompactConverterForTwoArchives" classname="com.whale.web.documents.DocumentsTest" time="0.034">
+    <system-out><![CDATA[2023-12-04T19:33:13.946-03:00  INFO 23988 --- [           main] c.w.web.documents.DocumentsController    : Compressed file conversion successful
 ]]></system-out>
   </testcase>
-  <testcase name="compressFileShouldReturnTheFileZip" classname="com.whale.web.documents.DocumentsTest" time="0.047">
-    <system-out><![CDATA[2023-12-04T19:17:08.678-03:00  INFO 27608 --- [           main] c.w.web.documents.DocumentsController    : File compressed successfully
+  <testcase name="compressFileShouldReturnTheFileZip" classname="com.whale.web.documents.DocumentsTest" time="0.044">
+    <system-out><![CDATA[2023-12-04T19:33:13.987-03:00  INFO 23988 --- [           main] c.w.web.documents.DocumentsController    : File compressed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testCompactConverterForOneArchive" classname="com.whale.web.documents.DocumentsTest" time="0.009">
-    <system-out><![CDATA[2023-12-04T19:17:08.700-03:00  INFO 27608 --- [           main] c.w.web.documents.DocumentsController    : Compressed file conversion successful
+  <testcase name="testCompactConverterForOneArchive" classname="com.whale.web.documents.DocumentsTest" time="0.008">
+    <system-out><![CDATA[2023-12-04T19:33:14.005-03:00  INFO 23988 --- [           main] c.w.web.documents.DocumentsController    : Compressed file conversion successful
 ]]></system-out>
   </testcase>
-  <testcase name="testQRCodeGeneratorLink" classname="com.whale.web.documents.DocumentsTest" time="0.06">
-    <system-out><![CDATA[2023-12-04T19:17:08.762-03:00  INFO 27608 --- [           main] c.w.web.documents.DocumentsController    : QRCOde link generated successfully
+  <testcase name="testQRCodeGeneratorLink" classname="com.whale.web.documents.DocumentsTest" time="0.068">
+    <system-out><![CDATA[2023-12-04T19:33:14.077-03:00  INFO 23988 --- [           main] c.w.web.documents.DocumentsController    : QRCOde link generated successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testConvertImageFormatWithNullImage" classname="com.whale.web.documents.DocumentsTest" time="0.009">
-    <system-out><![CDATA[2023-12-04T19:17:08.774-03:00 ERROR 27608 --- [           main] c.w.web.documents.DocumentsController    : Uploaded image file is null, empty or image format is not supported
+  <testcase name="testConvertImageFormatWithNullImage" classname="com.whale.web.documents.DocumentsTest" time="0.008">
+    <system-out><![CDATA[2023-12-04T19:33:14.087-03:00 ERROR 23988 --- [           main] c.w.web.documents.DocumentsController    : Uploaded image file is null, empty or image format is not supported
 ]]></system-out>
   </testcase>
   <testcase name="testInvalidURLQRCodeGeneratorLink" classname="com.whale.web.documents.DocumentsTest" time="0.009"/>
-  <testcase name="testInvalidURLQRCodeGeneratorEmail" classname="com.whale.web.documents.DocumentsTest" time="0.023"/>
-  <testcase name="testUnexpectedFileFormatException" classname="com.whale.web.documents.DocumentsTest" time="0.007">
-    <system-out><![CDATA[2023-12-04T19:17:08.820-03:00 ERROR 27608 --- [           main] c.w.web.documents.DocumentsController    : Unsupported file format. Please choose a  bmp, jpg, jpeg, or gif file.
+  <testcase name="testInvalidURLQRCodeGeneratorEmail" classname="com.whale.web.documents.DocumentsTest" time="0.026"/>
+  <testcase name="testUnexpectedFileFormatException" classname="com.whale.web.documents.DocumentsTest" time="0.008">
+    <system-out><![CDATA[2023-12-04T19:33:14.135-03:00 ERROR 23988 --- [           main] c.w.web.documents.DocumentsController    : Unsupported file format. Please choose a  bmp, jpg, jpeg, or gif file.
 ]]></system-out>
   </testcase>
-  <testcase name="testQRCodeGeneratorEmail" classname="com.whale.web.documents.DocumentsTest" time="0.04">
-    <system-out><![CDATA[2023-12-04T19:17:08.862-03:00  INFO 27608 --- [           main] c.w.web.documents.DocumentsController    : QRCOde email generated successfully
+  <testcase name="testQRCodeGeneratorEmail" classname="com.whale.web.documents.DocumentsTest" time="0.049">
+    <system-out><![CDATA[2023-12-04T19:33:14.186-03:00  INFO 23988 --- [           main] c.w.web.documents.DocumentsController    : QRCOde email generated successfully
 ]]></system-out>
   </testcase>
-  <testcase name="testToConvertAndDownloadImageSuccessfully" classname="com.whale.web.documents.DocumentsTest" time="0.027">
-    <system-out><![CDATA[2023-12-04T19:17:08.888-03:00  INFO 27608 --- [           main] c.w.web.documents.DocumentsController    : Image converted successfully
+  <testcase name="testToConvertAndDownloadImageSuccessfully" classname="com.whale.web.documents.DocumentsTest" time="0.03">
+    <system-out><![CDATA[2023-12-04T19:33:14.214-03:00  INFO 23988 --- [           main] c.w.web.documents.DocumentsController    : Image converted successfully
 ]]></system-out>
   </testcase>
 </testsuite>

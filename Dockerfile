@@ -17,8 +17,3 @@ EXPOSE 8080
 COPY --from=build target/whale-api.jar app.jar
 
 ENTRYPOINT ["java","-jar","app.jar"]
-
-
-
-
-#java -jar target/whale-api.jar

@@ -9,8 +9,8 @@ public class WebConfiguration implements WebMvcConfigurer{
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/api/v1**")
-                .allowedOrigins("https://big-whale-angular.vercel.app/")
+        registry.addMapping("/api/**")
+                .allowedOrigins("*")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD", "TRACE", "CONNECT")
                 .allowCredentials(false).maxAge(3600);;
     }
